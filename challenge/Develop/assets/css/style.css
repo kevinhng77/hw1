@@ -9,32 +9,36 @@ body {
 }
 
 .header {
-    padding: 20px;
+    padding: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/* made header text slightly bigger */
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 50px;
 }
 
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* make text slightly bigger */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.header div ul {
+
+/* commented out list style type since does nothing to code */
+/* .header div ul {
     list-style-type: none;
-}
+} */
 
 .header div ul li {
     display: inline-block;
@@ -142,6 +146,7 @@ p {
     text-align: center;
 }
 
+/* change h for footer since should be chronological */
 .footer h4 {
     font-size: 20px;
 }
