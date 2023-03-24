@@ -21,6 +21,18 @@ As stated above, there was a lot of code that needed refactoring. An example of 
 
 [Example 1](./Assets/images/example-1.png)
 
+Because of some of the renamings of the html file, this made the CSS file need some updating as well. For example, because we simply changed div to nav, this made it necessary to change nav in the CSS file as well.
+
+[Example 2](./Assets/images/example-2.png)
+
+ A lot of text sizing as well as picture resizing need to happen since it was not very user friendly. After resizing the pictures, you can see that it was way easier to read as well as easier to click. For people with disabilities, this is a great asset to them.
+
+[Example 3](./Assets/images/example-3.png)
+
+Finally, some bugs in the program were that some links did not click. This is in part due to how sloppy the HTML structuring was. Because of this, the original programmer probably missed a section in writing the code. The example below shows what the problem was.
+
+[Example 4](./Assets/images/example-4.png)
+
 ## Credits
 
 Special shoutout to TA Kyle Vance for assisting me with this project. He helped me learn the structure in which files should be presented in Github, as well as figure out some things about how Github pages works.
